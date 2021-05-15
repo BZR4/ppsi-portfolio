@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    color: #FFF;
+    background: linear-gradient(red, orange);
+}
+
+nav {
+    padding: 5px;
+    color: #FFF;
+    background-color: rgb(254, 93, 35);
+}
+
+main {
+    margin: auto;
+    max-width: 60rem;
+    padding: 16px;
+    background-color: beige;
+}
+
+aside {
+    padding: 16px;
+}
+
+footer {
+    padding: 16px;
+    height: 75px;
+    color: #FFF;
+    background-color: rgb(53, 53, 53);
+}
+
+section {
+    margin-bottom: 16px;
+    padding: 8px;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+@media (min-width: 120rem) {
+    html {
+        font-size: 250%;
+    }
+}
